@@ -1,0 +1,14 @@
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+
+a {
+  color: inherit;
+}
+a:link, a:active, a:focus, a:hover {
+  color: inherit;
+  text-decoration: inherit;
+}
+.jumbotron, .bgbody {
+  background-color: #f9ea85;
+}
