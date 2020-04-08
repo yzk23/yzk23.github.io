@@ -1,1 +1,3 @@
-# yzk23.github.io
+# Portfólio em construção...
+
+A fonte utilizada foi a [*More and Less Perfect DOS VGA*](http://laemeur.sdf.org/fonts/).
