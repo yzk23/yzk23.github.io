@@ -17,7 +17,7 @@ body {
 
 .loading {
   color: var(--main-color);
-  font: 300 4em/150% Impact;
+  font: 300 2.5em/100% Impact;
   font-family: 'more_perfect_dos_vgaregular';
 }
 

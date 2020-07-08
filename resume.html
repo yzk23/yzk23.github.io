@@ -1,6 +1,7 @@
 <html>
 
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -17,16 +18,21 @@
       font-style: normal;
     }
 
+    :root {
+      --background-color: black;/* white; */
+      --font-standard: 'more_perfect_dos_vgaregular'; /* 'Montserrat', sans-serif; */
+      --font-color: var(--main-color); /* black; */
+    }
+
     body {
-      background: black;
-      font-family: 'more_perfect_dos_vgaregular';
-      /* font-family: 'Montserrat', sans-serif; */
-      color: var(--main-color);
+      background: var(--background-color);
+      font-family: var(--font-standard);
+      color: var(--font-color);
+      /* align-items: center; */
     }
     
     .resume {
-      width: 793.688px;
-      background: black;
+      background: var(--background-color);
     }
     
     .container div {
@@ -59,9 +65,9 @@
 
     .skills-list span {
       box-sizing: border-box;
-      background-color: var(--main-color);
+      background-color: var(--font-color);
       padding: 10px;
-      color: black;
+      color: var(--background-color);
       margin-bottom: 30px;
     }
 
@@ -82,19 +88,19 @@
       font-size: 23px;
       float: right;
       text-decoration: none;
-      color: var(--main-color);
+      color: var(--font-color);
       border-radius: 3px;
       padding: 3px;
     }
 
     .download:hover {
-      background-color: var(--main-color);
-      color: black;
+      background-color: var(--font-color);
+      color: var(--background-color);
     }
   </style>
 </head>
 
-<body style="width: 60%;align-items: center;">
+<body style="">
   <div class="resume">
     <div class="container">
       <div align="center" class="header">
@@ -163,7 +169,7 @@
             07/2017
           </li>
           <p>
-            Instrutor de Informática no Projeto e-Jovem ministrando aulas de Suporte Técnico, Redes, Web Design e
+            Instrutor de Informática no Projeto e-Jovem ministrando aulas de Suporte Técnico, Redes,<br> Web Design e
             Programação
             Web.
           </p>
