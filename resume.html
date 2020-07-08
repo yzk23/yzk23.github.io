@@ -63,15 +63,25 @@
       font-size: 20px;
     }
 
-    .skills-list span {
+    .skills-list {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    .skills-list div {
       box-sizing: border-box;
       background-color: var(--font-color);
       padding: 10px;
       color: var(--background-color);
-      margin-bottom: 30px;
+      margin-bottom: 10px;
+      margin-right: 10px;
+      width: 128px;
+      text-align: center;
+      align-items: center;
     }
 
-    .skills-list span:hover {
+    .skills-list div:hover {
       color: blue;
     }
 
@@ -202,11 +212,11 @@
         </h2>
         <hr>
         <div class="skills-list">
-          <span>.NET Core</span>
-          <span>Python</span>
-          <span>ReactJS</span>
-          <span>React Native</span>
-          <span>Node</span>
+          <div>.NET Core</div>
+          <div>Python</div>
+          <div>ReactJS</div>
+          <div>React Native</div>
+          <div>Node</div>
         </div>
       </div>
     </div>
