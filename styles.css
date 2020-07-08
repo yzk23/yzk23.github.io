@@ -11,8 +11,11 @@ body {
   background-color: black;
 }
 
-.loading {
+:root {
   --main-color: #ff8c00;
+}
+
+.loading {
   color: var(--main-color);
   font: 300 4em/150% Impact;
   font-family: 'more_perfect_dos_vgaregular';
@@ -20,6 +23,7 @@ body {
 
 .loading a {
   text-decoration: none;
+  color: var(--main-color);
 }
 
 .loading a:visited {
